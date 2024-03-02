@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fef3c914a80aec04b9d91f4c812d64b6, type: 3}
+  m_Name: ALLitem
+  m_EditorClassIdentifier: 
+  ALLFood:
+  - {fileID: 11400000, guid: c500ec3d2f642a7498bda3c4fa1d3cd9, type: 2}
+  - {fileID: 11400000, guid: 57c4fa5199b2a52418b451a41f953a78, type: 2}
+  - {fileID: 11400000, guid: de464e625a498174b964e4579149c6c5, type: 2}
+  - {fileID: 11400000, guid: d3ef0f4f2f07f7f47b712c5c8c9025a1, type: 2}
+  - {fileID: 11400000, guid: f005fa4958081c343a79a2d4f0920ada, type: 2}
+  - {fileID: 11400000, guid: b17aaf258eaa9b443a72201e7e7dc64c, type: 2}
+  ALLWeapon:
+  - {fileID: 11400000, guid: ddee9e8a0fbfc344eae36e148a42066f, type: 2}
+  - {fileID: 11400000, guid: b5038aa2116f8f742a4b0c6c351637ef, type: 2}

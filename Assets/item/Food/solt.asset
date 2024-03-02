@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2daa94669f50933488c050b33eca5faa, type: 3}
+  m_Name: solt
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 8f2a19b276ce6664c82c4c218442630b, type: 3}
+  Data:
+    name: "\uC18C\uAE08"
+    info: "\uC9DC\uB2E4."
+    H_Regen: 0
+    EXP: 0
+    type: 2
+    ATK_Buff: 0
+    Speed_Buff: 0
+    HP_Max_Buff: 0
+    HP_Regen_Buff: 0
+  audio: {fileID: 0}

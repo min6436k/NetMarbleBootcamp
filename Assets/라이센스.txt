@@ -1,0 +1,1 @@
+폰트 = https://neodgm.dalgona.dev/embedding_fonts.html

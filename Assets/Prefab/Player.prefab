@@ -1,0 +1,3219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1989253644700135896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2176421338689171852}
+  - component: {fileID: 2593054758460287362}
+  - component: {fileID: 703238981352960705}
+  - component: {fileID: 3174417308834636039}
+  - component: {fileID: 8119146188506899020}
+  m_Layer: 7
+  m_Name: W1
+  m_TagString: Weapon
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2176421338689171852
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989253644700135896}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
+  m_LocalPosition: {x: 0.145, y: 0.9, z: 0}
+  m_LocalScale: {x: 6, y: 6, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 511577756968386372}
+  m_LocalEulerAnglesHint: {x: 22.02, y: -6.335, z: -114.135}
+--- !u!212 &2593054758460287362
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989253644700135896}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 6
+  m_Sprite: {fileID: 21300000, guid: aac3beeb44bca9f4f9b37ce05b4209d8, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!60 &703238981352960705
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989253644700135896}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.16}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.051761076, y: 0.104896046}
+      - {x: -0.04474121, y: 0.0027721217}
+      - {x: -0.07357525, y: -0.040077463}
+      - {x: -0.0727721, y: -0.075984515}
+      - {x: -0.04694248, y: -0.07518142}
+      - {x: 0.01301905, y: -0.054956295}
+      - {x: 0.08160615, y: 0.020077456}
+      - {x: 0.08562168, y: 0.10409297}
+  m_UseDelaunayMesh: 0
+--- !u!114 &3174417308834636039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989253644700135896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf62c79b53d9a74fafa62c872e3d5df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapondata: {fileID: 11400000, guid: ddee9e8a0fbfc344eae36e148a42066f, type: 2}
+--- !u!111 &8119146188506899020
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989253644700135896}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: b2e15d574b6b0994f92cda36594d5a9c, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: b2e15d574b6b0994f92cda36594d5a9c, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1 &6265702567566156668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 511577756968386372}
+  - component: {fileID: 4594673986257209185}
+  - component: {fileID: 4039835721357713609}
+  - component: {fileID: 7460314524599556657}
+  - component: {fileID: 5035043108041810496}
+  - component: {fileID: -8540388927213378532}
+  - component: {fileID: 2462482629412526768}
+  - component: {fileID: 2768771591175080786}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &511577756968386372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6265702567566156668}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.36, y: -1.17, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2176421338689171852}
+  - {fileID: 7252221878818246545}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &4594673986257209185
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6265702567566156668}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1c6120629d663864893e002af471703a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 5
+  m_Sprite: {fileID: -975177598, guid: 47de2c6eb4b0ab143974ce674bc4b55f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &4039835721357713609
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6265702567566156668}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 551e10e523a422b499704ecdccdecdb1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7460314524599556657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6265702567566156668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3cebe7ad9e379443b67a0c30a8ac0af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respon: {fileID: 0}
+  bag: {fileID: 0}
+  W1: {fileID: 1989253644700135896}
+  W2: {fileID: 6923352592609883069}
+  ShakeCameraScript: {fileID: 0}
+  inventory: {fileID: 11400000, guid: b5154de14758b2846ae0f2483a6dd79b, type: 2}
+  all_item: {fileID: 11400000, guid: 8d77f2b4df78ba845a3c64174eeec971, type: 2}
+  initem: 
+  MaxHungry: 100
+  hungry: 100
+  Level: 0
+  EXP: 0
+  nextEXP: 0
+  send_damage: 1
+  riceived_damage: 1
+  HP_Regen_magnifying: 1
+  HP_less_magnifying: 1
+  max_HP: 1
+  speed_magnifying: 1
+--- !u!114 &5035043108041810496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6265702567566156668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33255b7f349badf4da5b1dcdb82cf250, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  joystick: {fileID: 0}
+  speed: 4
+  jumpForce: 25
+  isJumped: 0
+  grounded: 0
+--- !u!114 &-8540388927213378532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6265702567566156668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -499960783, guid: c3ab396f3f53d1c4ebc7bae03391b186, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FieldsEnable:
+    Version: 2
+    PathsEnabled:
+    - Transform/position/x
+    - Transform/position/y
+    - Transform/position/z
+    - Transform/position
+    - Transform/localPosition/x
+    - Transform/localPosition/y
+    - Transform/localPosition/z
+    - Transform/localPosition
+    - Transform/eulerAngles/x
+    - Transform/eulerAngles/y
+    - Transform/eulerAngles/z
+    - Transform/eulerAngles
+    - Transform/localEulerAngles/x
+    - Transform/localEulerAngles/y
+    - Transform/localEulerAngles/z
+    - Transform/localEulerAngles
+    - Transform/right/x
+    - Transform/right/y
+    - Transform/right/z
+    - Transform/right
+    - Transform/up/x
+    - Transform/up/y
+    - Transform/up/z
+    - Transform/up
+    - Transform/forward/x
+    - Transform/forward/y
+    - Transform/forward/z
+    - Transform/forward
+    - Transform/rotation/x
+    - Transform/rotation/y
+    - Transform/rotation/z
+    - Transform/rotation/w
+    - Transform/rotation
+    - Transform/localRotation/x
+    - Transform/localRotation/y
+    - Transform/localRotation/z
+    - Transform/localRotation/w
+    - Transform/localRotation
+    - Transform/rotationOrder/value__
+    - Transform/rotationOrder
+    - Transform/localScale/x
+    - Transform/localScale/y
+    - Transform/localScale/z
+    - Transform/localScale
+    - Transform/parent
+    - Transform/hasChanged
+    - Transform/constrainProportionsScale
+    - Transform
+    - Rigidbody2D/position/x
+    - Rigidbody2D/position/y
+    - Rigidbody2D/position
+    - Rigidbody2D/rotation
+    - Rigidbody2D/velocity/x
+    - Rigidbody2D/velocity/y
+    - Rigidbody2D/velocity
+    - Rigidbody2D/angularVelocity
+    - Rigidbody2D/useAutoMass
+    - Rigidbody2D/mass
+    - Rigidbody2D/sharedMaterial/bounciness
+    - Rigidbody2D/sharedMaterial/friction
+    - Rigidbody2D/sharedMaterial
+    - Rigidbody2D/centerOfMass/x
+    - Rigidbody2D/centerOfMass/y
+    - Rigidbody2D/centerOfMass
+    - Rigidbody2D/inertia
+    - Rigidbody2D/drag
+    - Rigidbody2D/angularDrag
+    - Rigidbody2D/gravityScale
+    - Rigidbody2D/bodyType/value__
+    - Rigidbody2D/bodyType
+    - Rigidbody2D/useFullKinematicContacts
+    - Rigidbody2D/isKinematic
+    - Rigidbody2D/freezeRotation
+    - Rigidbody2D/constraints/value__
+    - Rigidbody2D/constraints
+    - Rigidbody2D/simulated
+    - Rigidbody2D/interpolation/value__
+    - Rigidbody2D/interpolation
+    - Rigidbody2D/sleepMode/value__
+    - Rigidbody2D/sleepMode
+    - Rigidbody2D/collisionDetectionMode/value__
+    - Rigidbody2D/collisionDetectionMode
+    - Rigidbody2D/totalForce/x
+    - Rigidbody2D/totalForce/y
+    - Rigidbody2D/totalForce
+    - Rigidbody2D/totalTorque
+    - Rigidbody2D/excludeLayers/m_Mask
+    - Rigidbody2D/excludeLayers/value
+    - Rigidbody2D/excludeLayers
+    - Rigidbody2D/includeLayers/m_Mask
+    - Rigidbody2D/includeLayers/value
+    - Rigidbody2D/includeLayers
+    - Rigidbody2D
+    - PlayerMovement/rigid
+    - PlayerMovement/joystick
+    - PlayerMovement/speed
+    - PlayerMovement/jumpForce
+    - PlayerMovement/h
+    - PlayerMovement/isJumped
+    - PlayerMovement/runbool
+    - PlayerMovement/grounded
+    - PlayerMovement/enabled
+    - CapsuleCollider2D/size/x
+    - CapsuleCollider2D/size/y
+    - CapsuleCollider2D/size
+    - CapsuleCollider2D/direction/value__
+    - CapsuleCollider2D/direction
+    - CapsuleCollider2D/density
+    - CapsuleCollider2D/isTrigger
+    - CapsuleCollider2D/usedByEffector
+    - CapsuleCollider2D/usedByComposite
+    - CapsuleCollider2D/offset/x
+    - CapsuleCollider2D/offset/y
+    - CapsuleCollider2D/offset
+    - CapsuleCollider2D/sharedMaterial/bounciness
+    - CapsuleCollider2D/sharedMaterial/friction
+    - CapsuleCollider2D/sharedMaterial
+    - CapsuleCollider2D/layerOverridePriority
+    - CapsuleCollider2D/excludeLayers/m_Mask
+    - CapsuleCollider2D/excludeLayers/value
+    - CapsuleCollider2D/excludeLayers
+    - CapsuleCollider2D/includeLayers/m_Mask
+    - CapsuleCollider2D/includeLayers/value
+    - CapsuleCollider2D/includeLayers
+    - CapsuleCollider2D/forceSendLayers/m_Mask
+    - CapsuleCollider2D/forceSendLayers/value
+    - CapsuleCollider2D/forceSendLayers
+    - CapsuleCollider2D/forceReceiveLayers/m_Mask
+    - CapsuleCollider2D/forceReceiveLayers/value
+    - CapsuleCollider2D/forceReceiveLayers
+    - CapsuleCollider2D/contactCaptureLayers/m_Mask
+    - CapsuleCollider2D/contactCaptureLayers/value
+    - CapsuleCollider2D/contactCaptureLayers
+    - CapsuleCollider2D/callbackLayers/m_Mask
+    - CapsuleCollider2D/callbackLayers/value
+    - CapsuleCollider2D/callbackLayers
+    - CapsuleCollider2D/enabled
+    - CapsuleCollider2D
+    - player/respon
+    - player/bag
+    - player/Skillboll
+    - player/W1
+    - player/W2
+    - player/initem
+    - player/hungry
+    - player/enabled
+    - GameObject/layer
+    - GameObject/isStatic
+    - GameObject/tag
+    - GameObject/name
+    - GameObject/activeSelf
+    - GameObject
+    - player/MaxHungry
+    - player/imsi
+    - player/ShakeCameraScript
+    ModificationVersion: 32
+    ComponentsEnabled: []
+    HashFieldsEnabled: []
+    ObjectsEnabled: 
+    HashSetFieldsEnabled:
+      m_buckets: 98000000000000003b00000000000000220000007200000000000000070000000000000034000000000000002b00000000000000000000002f000000000000004e00000055000000820000000000000059000000000000001a0000009b00000000000000000000000000000000000000000000000000000000000000730000000000000000000000000000000000000000000000000000003f0000000000000000000000410000006f00000000000000000000000000000068000000000000000000000045000000000000006200000000000000690000000000000010000000000000000000000000000000000000008b000000000000003c00000000000000900000003a0000005a00000000000000930000000000000000000000510000003900000000000000000000007800000000000000000000000f0000000000000000000000000000000000000000000000000000000000000003000000000000004f0000005c0000002000000000000000460000000000000000000000000000000000000000000000000000000000000000000000000000000000000032000000000000008f00000000000000860000000000000000000000910000000000000000000000000000000000000000000000000000009600000080000000000000008a000000000000000000000000000000000000000000000000000000000000004c00000047000000000000000000000000000000000000000000000024000000000000002100000050000000000000000000000000000000490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000250000001400000084000000060000001c000000000000002e0000002a00000000000000400000008700000079000000000000000000000000000000000000000000000000000000190000000000000054000000810000000000000000000000000000000000000088000000000000002600000000000000000000000000000000000000000000003e0000000000000071000000000000005f000000170000000000000000000000670000006c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000750000006e000000000000000000000000000000480000000000000000000000000000001e0000001200000076000000000000000000000000000000000000000e00000000000000000000000000000000000000000000007c0000000000000002000000000000007a000000000000008d000000000000000000000000000000280000000000000000000000000000000000000000000000000000009a0000000000000089000000000000008e0000000000000000000000000000000000000000000000000000004b0000000000000000000000000000005b000000370000000000000000000000000000000000000000000000000000000000000000000000000000009700000000000000000000000000000000000000000000000000000000000000230000006b00000000000000000000000000000000000000000000000000000000000000000000007b000000000000000000000000000000640000000000000000000000660000001b000000000000006a00000000000000050000000000000000000000000000002900000099000000000000008500000000000000630000005d00000000000000950000000000000000000000090000000000000053000000000000000000000061000000000000000000000000000000000000004400000000000000180000000000000000000000000000000000000065000000700000000000000000000000160000007d000000000000004200000000000000000000005e000000940000000000000000000000000000004a0000007f0000000000000000000000560000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001d0000001100000000000000000000000000000000000000000000004d000000040000000000000000000000000000000000000000000000000000000100000083000000000000000000000000000000000000000000000000000000000000003000000000000000000000000000000000000000000000007e0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003800000000000000000000009200000000000000000000005700000000000000000000000000000008000000000000000000000000000000000000000000000000000000
+      m_slots:
+      - hashCode: 407537608
+        next: -1
+        value:
+          HashCodePath: -559544797
+          HashCodeMember: -2094178328
+      - hashCode: 407981819
+        next: -1
+        value:
+          HashCodePath: -559544797
+          HashCodeMember: -2093734117
+      - hashCode: 408426030
+        next: -1
+        value:
+          HashCodePath: -559544797
+          HashCodeMember: -2093289906
+      - hashCode: 1587938851
+        next: -1
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -789838941
+      - hashCode: 1411678312
+        next: -1
+        value:
+          HashCodePath: -1346007692
+          HashCodeMember: -2094178328
+      - hashCode: 1412122523
+        next: -1
+        value:
+          HashCodePath: -1346007692
+          HashCodeMember: -2093734117
+      - hashCode: 1412566734
+        next: -1
+        value:
+          HashCodePath: -1346007692
+          HashCodeMember: -2093289906
+      - hashCode: 801475956
+        next: -1
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -1576301836
+      - hashCode: 1920823368
+        next: -1
+        value:
+          HashCodePath: -784908073
+          HashCodeMember: -2094178328
+      - hashCode: 1921267579
+        next: -1
+        value:
+          HashCodePath: -784908073
+          HashCodeMember: -2093734117
+      - hashCode: 1921711790
+        next: -1
+        value:
+          HashCodePath: -784908073
+          HashCodeMember: -2093289906
+      - hashCode: 1362575575
+        next: -1
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -1015202217
+      - hashCode: 875041576
+        next: -1
+        value:
+          HashCodePath: -781611406
+          HashCodeMember: -2094178328
+      - hashCode: 875485787
+        next: -1
+        value:
+          HashCodePath: -781611406
+          HashCodeMember: -2093734117
+      - hashCode: 875929998
+        next: -1
+        value:
+          HashCodePath: -781611406
+          HashCodeMember: -2093289906
+      - hashCode: 1365872242
+        next: -1
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -1011905550
+      - hashCode: 1114592232
+        next: -1
+        value:
+          HashCodePath: -1690467040
+          HashCodeMember: -2094178328
+      - hashCode: 1115036443
+        next: -1
+        value:
+          HashCodePath: -1690467040
+          HashCodeMember: -2093734117
+      - hashCode: 1115480654
+        next: -1
+        value:
+          HashCodePath: -1690467040
+          HashCodeMember: -2093289906
+      - hashCode: 457016608
+        next: -1
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -1920761184
+      - hashCode: 1870784008
+        next: -1
+        value:
+          HashCodePath: -477388915
+          HashCodeMember: -2094178328
+      - hashCode: 1871228219
+        next: -1
+        value:
+          HashCodePath: -477388915
+          HashCodeMember: -2093734117
+      - hashCode: 1871672430
+        next: -1
+        value:
+          HashCodePath: -477388915
+          HashCodeMember: -2093289906
+      - hashCode: 1670094733
+        next: -1
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -707683059
+      - hashCode: 66879304
+        next: 9
+        value:
+          HashCodePath: -1451870609
+          HashCodeMember: -2094178328
+      - hashCode: 67323515
+        next: 10
+        value:
+          HashCodePath: -1451870609
+          HashCodeMember: -2093734117
+      - hashCode: 67767726
+        next: -1
+        value:
+          HashCodePath: -1451870609
+          HashCodeMember: -2093289906
+      - hashCode: 695613039
+        next: -1
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -1682164753
+      - hashCode: 1958172584
+        next: -1
+        value:
+          HashCodePath: -533480314
+          HashCodeMember: -2094178328
+      - hashCode: 1958616795
+        next: -1
+        value:
+          HashCodePath: -533480314
+          HashCodeMember: -2093734117
+      - hashCode: 1959061006
+        next: -1
+        value:
+          HashCodePath: -533480314
+          HashCodeMember: -2093289906
+      - hashCode: 1957728373
+        next: -1
+        value:
+          HashCodePath: -533480314
+          HashCodeMember: -2094622539
+      - hashCode: 1614003334
+        next: -1
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -763774458
+      - hashCode: 814829640
+        next: -1
+        value:
+          HashCodePath: -1319943209
+          HashCodeMember: -2094178328
+      - hashCode: 815273851
+        next: -1
+        value:
+          HashCodePath: -1319943209
+          HashCodeMember: -2093734117
+      - hashCode: 815718062
+        next: -1
+        value:
+          HashCodePath: -1319943209
+          HashCodeMember: -2093289906
+      - hashCode: 814385429
+        next: -1
+        value:
+          HashCodePath: -1319943209
+          HashCodeMember: -2094622539
+      - hashCode: 827540439
+        next: -1
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -1550237353
+      - hashCode: 1279186351
+        next: -1
+        value:
+          HashCodePath: -702128352
+          HashCodeMember: -10968657
+      - hashCode: 1445355296
+        next: -1
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -932422496
+      - hashCode: 1695698696
+        next: -1
+        value:
+          HashCodePath: -1843319115
+          HashCodeMember: -2094178328
+      - hashCode: 1696142907
+        next: -1
+        value:
+          HashCodePath: -1843319115
+          HashCodeMember: -2093734117
+      - hashCode: 1696587118
+        next: -1
+        value:
+          HashCodePath: -1843319115
+          HashCodeMember: -2093289906
+      - hashCode: 304164533
+        next: -1
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -2073613259
+      - hashCode: 1399490486
+        next: -1
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -978287306
+      - hashCode: 1667908958
+        next: -1
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -709868834
+      - hashCode: 805255416
+        next: -1
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -1572522376
+      - hashCode: 289311300
+        next: -1
+        value:
+          HashCodePath: 0
+          HashCodeMember: 289311300
+      - hashCode: 324348872
+        next: -1
+        value:
+          HashCodePath: -1157469501
+          HashCodeMember: -2094178328
+      - hashCode: 324793083
+        next: -1
+        value:
+          HashCodePath: -1157469501
+          HashCodeMember: -2093734117
+      - hashCode: 990014147
+        next: -1
+        value:
+          HashCodePath: 106726261
+          HashCodeMember: -789838941
+      - hashCode: 1016078630
+        next: -1
+        value:
+          HashCodePath: 106726261
+          HashCodeMember: -763774458
+      - hashCode: 58995400
+        next: -1
+        value:
+          HashCodePath: -15247077
+          HashCodeMember: -2094178328
+      - hashCode: 59439611
+        next: -1
+        value:
+          HashCodePath: -15247077
+          HashCodeMember: -2093734117
+      - hashCode: 2132236571
+        next: -1
+        value:
+          HashCodePath: 106726261
+          HashCodeMember: 352383483
+      - hashCode: 583000753
+        next: -1
+        value:
+          HashCodePath: 106726261
+          HashCodeMember: -1196852335
+      - hashCode: 1049599718
+        next: 18
+        value:
+          HashCodePath: 106726261
+          HashCodeMember: -730253370
+      - hashCode: 1128208508
+        next: -1
+        value:
+          HashCodePath: 106726261
+          HashCodeMember: -651644580
+      - hashCode: 262250141
+        next: -1
+        value:
+          HashCodePath: -13376880
+          HashCodeMember: -2079546211
+      - hashCode: 1942065374
+        next: 20
+        value:
+          HashCodePath: -13376880
+          HashCodeMember: 1747752670
+      - hashCode: 2134106768
+        next: -1
+        value:
+          HashCodePath: 106726261
+          HashCodeMember: 354253680
+      - hashCode: 1208629352
+        next: -1
+        value:
+          HashCodePath: 2066234420
+          HashCodeMember: -2094178328
+      - hashCode: 1209073563
+        next: -1
+        value:
+          HashCodePath: 2066234420
+          HashCodeMember: -2093734117
+      - hashCode: 2066234420
+        next: -1
+        value:
+          HashCodePath: 106726261
+          HashCodeMember: -1861102316
+      - hashCode: 1633224114
+        next: -1
+        value:
+          HashCodePath: 106726261
+          HashCodeMember: 2000854674
+      - hashCode: 836651512
+        next: -1
+        value:
+          HashCodePath: 106726261
+          HashCodeMember: 1204282072
+      - hashCode: 899584302
+        next: -1
+        value:
+          HashCodePath: 106726261
+          HashCodeMember: -880268786
+      - hashCode: 168129984
+        next: 38
+        value:
+          HashCodePath: 106726261
+          HashCodeMember: 535760544
+      - hashCode: 106626863
+        next: -1
+        value:
+          HashCodePath: 2021534908
+          HashCodeMember: -10968657
+      - hashCode: 2021534908
+        next: -1
+        value:
+          HashCodePath: 106726261
+          HashCodeMember: -1905801828
+      - hashCode: 1580814602
+        next: -1
+        value:
+          HashCodePath: 106726261
+          HashCodeMember: -199038486
+      - hashCode: 1951221693
+        next: -1
+        value:
+          HashCodePath: 106726261
+          HashCodeMember: 171368605
+      - hashCode: 217427143
+        next: -1
+        value:
+          HashCodePath: 106726261
+          HashCodeMember: 585057703
+      - hashCode: 2131141487
+        next: -1
+        value:
+          HashCodePath: -142850666
+          HashCodeMember: -10968657
+      - hashCode: 2004632982
+        next: -1
+        value:
+          HashCodePath: 106726261
+          HashCodeMember: 224779894
+      - hashCode: 466304200
+        next: -1
+        value:
+          HashCodePath: 106726261
+          HashCodeMember: 833934760
+      - hashCode: 276596783
+        next: 12
+        value:
+          HashCodePath: -1077067548
+          HashCodeMember: -10968657
+      - hashCode: 1070416100
+        next: -1
+        value:
+          HashCodePath: 106726261
+          HashCodeMember: -709436988
+      - hashCode: 1407898223
+        next: -1
+        value:
+          HashCodePath: 1722081326
+          HashCodeMember: -10968657
+      - hashCode: 1722081326
+        next: -1
+        value:
+          HashCodePath: 106726261
+          HashCodeMember: 2089711886
+      - hashCode: 449988207
+        next: 30
+        value:
+          HashCodePath: 1717068110
+          HashCodeMember: -10968657
+      - hashCode: 1717068110
+        next: -1
+        value:
+          HashCodePath: 106726261
+          HashCodeMember: 2084698670
+      - hashCode: 249633800
+        next: -1
+        value:
+          HashCodePath: -1696724867
+          HashCodeMember: -2094178328
+      - hashCode: 250078011
+        next: -1
+        value:
+          HashCodePath: -1696724867
+          HashCodeMember: -2093734117
+      - hashCode: 450758781
+        next: -1
+        value:
+          HashCodePath: 106726261
+          HashCodeMember: -1329094307
+      - hashCode: 1387044558
+        next: -1
+        value:
+          HashCodePath: 106726261
+          HashCodeMember: 1754675118
+      - hashCode: 24838950
+        next: -1
+        value:
+          HashCodePath: -772843608
+          HashCodeMember: -1403368922
+      - hashCode: 529631379
+        next: -1
+        value:
+          HashCodePath: -772843608
+          HashCodeMember: 1248907155
+      - hashCode: 1374640040
+        next: -1
+        value:
+          HashCodePath: 106726261
+          HashCodeMember: -405213048
+      - hashCode: 1697752166
+        next: -1
+        value:
+          HashCodePath: -706619958
+          HashCodeMember: -1403368922
+      - hashCode: 55060947
+        next: -1
+        value:
+          HashCodePath: -706619958
+          HashCodeMember: 1248907155
+      - hashCode: 1440863690
+        next: -1
+        value:
+          HashCodePath: 106726261
+          HashCodeMember: -338989398
+      - hashCode: 106726261
+        next: -1
+        value:
+          HashCodePath: 0
+          HashCodeMember: 106726261
+      - hashCode: 1684667289
+        next: -1
+        value:
+          HashCodePath: -544949824
+          HashCodeMember: 2122015641
+      - hashCode: 45343116
+        next: -1
+        value:
+          HashCodePath: -544949824
+          HashCodeMember: 482691468
+      - hashCode: 1300113529
+        next: -1
+        value:
+          HashCodePath: -544949824
+          HashCodeMember: 1737461881
+      - hashCode: 1425246643
+        next: -1
+        value:
+          HashCodePath: -544949824
+          HashCodeMember: 1862594995
+      - hashCode: 1756333240
+        next: -1
+        value:
+          HashCodePath: -544949824
+          HashCodeMember: -2101285704
+      - hashCode: 1856846153
+        next: -1
+        value:
+          HashCodePath: -544949824
+          HashCodeMember: 146710857
+      - hashCode: 185459599
+        next: 44
+        value:
+          HashCodePath: -544949824
+          HashCodeMember: -1524675697
+      - hashCode: 690902390
+        next: -1
+        value:
+          HashCodePath: -544949824
+          HashCodeMember: -1019232906
+      - hashCode: 1724754983
+        next: -1
+        value:
+          HashCodePath: -544949824
+          HashCodeMember: 14619687
+      - hashCode: 1318155080
+        next: -1
+        value:
+          HashCodePath: 797373327
+          HashCodeMember: -2094178328
+      - hashCode: 1318599291
+        next: 87
+        value:
+          HashCodePath: 797373327
+          HashCodeMember: -2093734117
+      - hashCode: 797373327
+        next: -1
+        value:
+          HashCodePath: -1721337019
+          HashCodeMember: 799984239
+      - hashCode: 532179279
+        next: 95
+        value:
+          HashCodePath: -1759470871
+          HashCodeMember: -10968657
+      - hashCode: 388012777
+        next: -1
+        value:
+          HashCodePath: -1721337019
+          HashCodeMember: -1756859959
+      - hashCode: 720444712
+        next: -1
+        value:
+          HashCodePath: -1721337019
+          HashCodeMember: -1424428024
+      - hashCode: 1107793950
+        next: 48
+        value:
+          HashCodePath: -1721337019
+          HashCodeMember: -1037078786
+      - hashCode: 1008385484
+        next: -1
+        value:
+          HashCodePath: -1721337019
+          HashCodeMember: -1136487252
+      - hashCode: 2043312857
+        next: -1
+        value:
+          HashCodePath: -1721337019
+          HashCodeMember: -101559879
+      - hashCode: 2110291848
+        next: -1
+        value:
+          HashCodePath: -709958999
+          HashCodeMember: -2094178328
+      - hashCode: 2110736059
+        next: -1
+        value:
+          HashCodePath: -709958999
+          HashCodeMember: -2093734117
+      - hashCode: 1437524649
+        next: -1
+        value:
+          HashCodePath: -1721337019
+          HashCodeMember: -707348087
+      - hashCode: 1447485085
+        next: -1
+        value:
+          HashCodePath: 351642768
+          HashCodeMember: -2079546211
+      - hashCode: 979816670
+        next: -1
+        value:
+          HashCodePath: 351642768
+          HashCodeMember: 1747752670
+      - hashCode: 351642768
+        next: -1
+        value:
+          HashCodePath: -1721337019
+          HashCodeMember: 354253680
+      - hashCode: 1409432287
+        next: -1
+        value:
+          HashCodePath: -1721337019
+          HashCodeMember: 1412043199
+      - hashCode: 1210073894
+        next: -1
+        value:
+          HashCodePath: -407823960
+          HashCodeMember: -1403368922
+      - hashCode: 1714866323
+        next: 43
+        value:
+          HashCodePath: -407823960
+          HashCodeMember: 1248907155
+      - hashCode: 1739659688
+        next: -1
+        value:
+          HashCodePath: -1721337019
+          HashCodeMember: -405213048
+      - hashCode: 735503462
+        next: -1
+        value:
+          HashCodePath: -341600310
+          HashCodeMember: -1403368922
+      - hashCode: 1240295891
+        next: -1
+        value:
+          HashCodePath: -341600310
+          HashCodeMember: 1248907155
+      - hashCode: 1805883338
+        next: 115
+        value:
+          HashCodePath: -1721337019
+          HashCodeMember: -338989398
+      - hashCode: 1390586502
+        next: -1
+        value:
+          HashCodePath: -1082046121
+          HashCodeMember: -1403368922
+      - hashCode: 1895378931
+        next: 53
+        value:
+          HashCodePath: -1082046121
+          HashCodeMember: 1248907155
+      - hashCode: 1065437527
+        next: 60
+        value:
+          HashCodePath: -1721337019
+          HashCodeMember: -1079435209
+      - hashCode: 395065062
+        next: -1
+        value:
+          HashCodePath: -606281074
+          HashCodeMember: -1403368922
+      - hashCode: 899857491
+        next: -1
+        value:
+          HashCodePath: -606281074
+          HashCodeMember: 1248907155
+      - hashCode: 1541202574
+        next: 118
+        value:
+          HashCodePath: -1721337019
+          HashCodeMember: -603670162
+      - hashCode: 1797848358
+        next: -1
+        value:
+          HashCodePath: 1511645752
+          HashCodeMember: -1403368922
+      - hashCode: 155157139
+        next: -1
+        value:
+          HashCodePath: 1511645752
+          HashCodeMember: 1248907155
+      - hashCode: 1511645752
+        next: 81
+        value:
+          HashCodePath: -1721337019
+          HashCodeMember: 1514256664
+      - hashCode: 210750918
+        next: 11
+        value:
+          HashCodePath: -170816183
+          HashCodeMember: -1403368922
+      - hashCode: 715543347
+        next: -1
+        value:
+          HashCodePath: -170816183
+          HashCodeMember: 1248907155
+      - hashCode: 1976667465
+        next: -1
+        value:
+          HashCodePath: -1721337019
+          HashCodeMember: -168205271
+      - hashCode: 12008775
+        next: 108
+        value:
+          HashCodePath: -1721337019
+          HashCodeMember: 14619687
+      - hashCode: 426146629
+        next: 52
+        value:
+          HashCodePath: 0
+          HashCodeMember: -1721337019
+      - hashCode: 1480553589
+        next: -1
+        value:
+          HashCodePath: -200568357
+          HashCodeMember: 818981269
+      - hashCode: 1063733860
+        next: -1
+        value:
+          HashCodePath: -200568357
+          HashCodeMember: 402161540
+      - hashCode: 719267694
+        next: 66
+        value:
+          HashCodePath: -200568357
+          HashCodeMember: -2089788274
+      - hashCode: 835945874
+        next: -1
+        value:
+          HashCodePath: -200568357
+          HashCodeMember: -1973110094
+      - hashCode: 836390085
+        next: -1
+        value:
+          HashCodePath: -200568357
+          HashCodeMember: -1972665883
+      - hashCode: 1711847588
+        next: -1
+        value:
+          HashCodePath: -200568357
+          HashCodeMember: -1097208380
+      - hashCode: 134388927
+        next: -1
+        value:
+          HashCodePath: -200568357
+          HashCodeMember: -527183393
+      - hashCode: 676192007
+        next: -1
+        value:
+          HashCodePath: -200568357
+          HashCodeMember: 14619687
+      - hashCode: 1829995467
+        next: -1
+        value:
+          HashCodePath: 991929691
+          HashCodeMember: -1016887061
+      - hashCode: 96753816
+        next: -1
+        value:
+          HashCodePath: 991929691
+          HashCodeMember: 1544838584
+      - hashCode: 844100458
+        next: -1
+        value:
+          HashCodePath: 991929691
+          HashCodeMember: 144701578
+      - hashCode: 1741864205
+        next: -1
+        value:
+          HashCodePath: 991929691
+          HashCodeMember: 1042465325
+      - hashCode: 1189677078
+        next: -1
+        value:
+          HashCodePath: 991929691
+          HashCodeMember: -1657205450
+      - hashCode: 991929691
+        next: 139
+        value:
+          HashCodePath: 0
+          HashCodeMember: 991929691
+      - hashCode: 2059356671
+        next: -1
+        value:
+          HashCodePath: -200568357
+          HashCodeMember: -749699297
+      - hashCode: 1777836030
+        next: 50
+        value:
+          HashCodePath: -200568357
+          HashCodeMember: 1116263710
+      - hashCode: 675610194
+        next: -1
+        value:
+          HashCodePath: -200568357
+          HashCodeMember: 14037874
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      m_count: 155
+      m_lastIndex: 155
+      m_freeList: -1
+      m_version: 5111
+    HashSetObjectsEnabled:
+      m_buckets: 00000000000000002100000000000000000000000000000020000000110000001300000000000000160000001d000000000000000b00000000000000220000000a00000014000000000000000000000000000000000000000000000000000000000000000f000000000000000000000000000000000000001f0000001e000000070000001b000000150000000000000017000000000000002700000000000000000000000e0000000d000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000000001900000000000000000000000000000026000000000000002400000000000000000000000100000000000000000000002500000000000000030000000000000008000000230000001c0000000000000000000000000000000000000009000000000000000000000000000000000000000000000000000000
+      m_slots:
+      - hashCode: 289311300
+        next: -1
+        value: 289311300
+      - hashCode: 1587938851
+        next: -1
+        value: -559544797
+      - hashCode: 801475956
+        next: -1
+        value: -1346007692
+      - hashCode: 1362575575
+        next: -1
+        value: -784908073
+      - hashCode: 1365872242
+        next: -1
+        value: -781611406
+      - hashCode: 457016608
+        next: -1
+        value: -1690467040
+      - hashCode: 1670094733
+        next: -1
+        value: -477388915
+      - hashCode: 695613039
+        next: -1
+        value: -1451870609
+      - hashCode: 1614003334
+        next: 3
+        value: -533480314
+      - hashCode: 827540439
+        next: -1
+        value: -1319943209
+      - hashCode: 1445355296
+        next: -1
+        value: -702128352
+      - hashCode: 304164533
+        next: -1
+        value: -1843319115
+      - hashCode: 106726261
+        next: -1
+        value: 106726261
+      - hashCode: 990014147
+        next: -1
+        value: -1157469501
+      - hashCode: 2132236571
+        next: -1
+        value: -15247077
+      - hashCode: 2134106768
+        next: -1
+        value: -13376880
+      - hashCode: 2066234420
+        next: -1
+        value: 2066234420
+      - hashCode: 2021534908
+        next: -1
+        value: 2021534908
+      - hashCode: 2004632982
+        next: -1
+        value: -142850666
+      - hashCode: 1070416100
+        next: -1
+        value: -1077067548
+      - hashCode: 1722081326
+        next: -1
+        value: 1722081326
+      - hashCode: 1717068110
+        next: -1
+        value: 1717068110
+      - hashCode: 450758781
+        next: -1
+        value: -1696724867
+      - hashCode: 1374640040
+        next: -1
+        value: -772843608
+      - hashCode: 1440863690
+        next: -1
+        value: -706619958
+      - hashCode: 1602533824
+        next: 11
+        value: -544949824
+      - hashCode: 426146629
+        next: 17
+        value: -1721337019
+      - hashCode: 797373327
+        next: -1
+        value: 797373327
+      - hashCode: 388012777
+        next: 4
+        value: -1759470871
+      - hashCode: 1437524649
+        next: -1
+        value: -709958999
+      - hashCode: 351642768
+        next: -1
+        value: 351642768
+      - hashCode: 1739659688
+        next: 5
+        value: -407823960
+      - hashCode: 1805883338
+        next: 25
+        value: -341600310
+      - hashCode: 1065437527
+        next: -1
+        value: -1082046121
+      - hashCode: 1541202574
+        next: -1
+        value: -606281074
+      - hashCode: 1511645752
+        next: 15
+        value: 1511645752
+      - hashCode: 1976667465
+        next: -1
+        value: -170816183
+      - hashCode: 1946915291
+        next: 23
+        value: -200568357
+      - hashCode: 991929691
+        next: -1
+        value: 991929691
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      - hashCode: 0
+        next: 0
+        value: 0
+      m_count: 39
+      m_lastIndex: 39
+      m_freeList: -1
+      m_version: 1311
+    HashSetComponentsEnabled:
+      m_buckets: 00000000020000000000000003000000040000000000000005000000
+      m_slots:
+      - hashCode: 1321165359
+        next: -1
+        value: UnityEngine.Transform
+      - hashCode: 967062552
+        next: -1
+        value: UnityEngine.Rigidbody2D
+      - hashCode: 1602533824
+        next: 0
+        value: PlayerMovement
+      - hashCode: 648399504
+        next: -1
+        value: UnityEngine.CapsuleCollider2D
+      - hashCode: 1946915291
+        next: -1
+        value: player
+      - hashCode: 0
+        next: 0
+        value: 
+      - hashCode: 0
+        next: 0
+        value: 
+      m_count: 5
+      m_lastIndex: 5
+      m_freeList: -1
+      m_version: 193
+    AreValidSavedHashs: 1
+  Position: 0
+  Rotation: 0
+  Scale: 0
+  Name: 0
+  Tag: 0
+  Active: 0
+  Static: 0
+  Layer: 0
+  GAMEOBJECT_STATIC_ID: 0
+  GAMEOBJECT_PATH: 
+  Private_prefabId: 514762735
+  PrefabSetTime: 1692200531
+  CreateInRuntime: 0
+  onLoad: 1
+--- !u!50 &2462482629412526768
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6265702567566156668}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 3
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
+--- !u!70 &2768771591175080786
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6265702567566156668}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: d3763d5ea27fed14f8db840390778894, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.5}
+  m_Size: {x: 0.59, y: 1}
+  m_Direction: 0
+--- !u!1 &6923352592609883069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7252221878818246545}
+  - component: {fileID: 8462206769671581111}
+  - component: {fileID: 7039138539940272337}
+  - component: {fileID: 5304720465886223357}
+  - component: {fileID: 8149913305832442441}
+  m_Layer: 7
+  m_Name: W2
+  m_TagString: Weapon
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7252221878818246545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6923352592609883069}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
+  m_LocalPosition: {x: 0.173, y: 0.965, z: 0}
+  m_LocalScale: {x: 6, y: 6, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 511577756968386372}
+  m_LocalEulerAnglesHint: {x: 22.022913, y: -6.3351564, z: 63.374954}
+--- !u!212 &8462206769671581111
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6923352592609883069}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 6
+  m_Sprite: {fileID: 21300000, guid: 676fae71e39500147b6865fb6ba0a2a3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &7039138539940272337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6923352592609883069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf62c79b53d9a74fafa62c872e3d5df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapondata: {fileID: 11400000, guid: b5038aa2116f8f742a4b0c6c351637ef, type: 2}
+--- !u!60 &5304720465886223357
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6923352592609883069}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.16}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.0002458701, y: 0.054981064}
+      - {x: -0.024693398, y: 0.030933268}
+      - {x: -0.028304387, y: 0.007337859}
+      - {x: -0.080853306, y: -0.04925347}
+      - {x: -0.08, y: -0.08}
+      - {x: -0.06866737, y: -0.08216229}
+      - {x: -0.02172482, y: -0.050308302}
+      - {x: 0.034757484, y: -0.08547755}
+      - {x: 0.10058118, y: -0.029964738}
+      - {x: 0.10655453, y: 0.05088705}
+      - {x: 0.04591996, y: 0.06591996}
+  m_UseDelaunayMesh: 0
+--- !u!111 &8149913305832442441
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6923352592609883069}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: b2e15d574b6b0994f92cda36594d5a9c, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: b2e15d574b6b0994f92cda36594d5a9c, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0

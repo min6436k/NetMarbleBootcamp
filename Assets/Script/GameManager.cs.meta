@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: bdb8a09dba9b6fb499fbe635e8c8b368
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - player: {fileID: 6265702567566156668, guid: 3f5158c11e509344a817cbb9de532b0d, type: 3}
+  - S_P: {instanceID: 0}
+  - enemy: {fileID: 7550145872806156969, guid: 2576d6715cff9ac418b0ef51f47dc4d2, type: 3}
+  - next: {instanceID: 0}
+  - UI: {fileID: 8972884293742356324, guid: 8ab90989a20b34c49b80e750137b75f7, type: 3}
+  - Weapon1: {fileID: 4570427366663891995, guid: cac4d969b6b11a24384ee57fc9882e78, type: 3}
+  - Weapon2: {fileID: 4570427366663891995, guid: c8900d38b1a7fc64da73c2af2a774c5f, type: 3}
+  - run: {fileID: 1190953871987275874, guid: 5509d479be42bd546bd19b6b1fb75596, type: 3}
+  - CineCam: {fileID: 6249558932892583953, guid: 8947b444d09fcaf45b470ddd1e05d033, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
